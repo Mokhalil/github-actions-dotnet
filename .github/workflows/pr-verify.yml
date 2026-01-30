@@ -25,7 +25,7 @@ env:
   DOTNET_VERSION: '5'                 # set this to the .NET Core version to use
 
 on:
-  pull_request
+  pull_request:
   workflow_dispatch:
 
 permissions:
