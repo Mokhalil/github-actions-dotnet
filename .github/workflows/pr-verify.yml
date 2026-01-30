@@ -32,7 +32,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  first_step:
     name : pr_verify
     runs-on: ubuntu-latest
 
